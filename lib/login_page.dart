@@ -13,6 +13,7 @@ class _Login_PageState extends State<Login_Page> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
+        title:Text('Unlext App'),
         backgroundColor:Colors.indigoAccent,
       ),
       body:Container(

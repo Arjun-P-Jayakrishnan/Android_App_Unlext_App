@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "add_file.dart";
+import "selection_subject_to_file_select.dart";
 
 class Subject_Select extends StatefulWidget {
   static const String id="Subject_Select";
@@ -13,6 +13,7 @@ class _Subject_SelectState extends State<Subject_Select> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
+          title:Text("Login"),
       leading:IconButton(
         onPressed:(){
           Navigator.pop(context);
@@ -56,7 +57,7 @@ class _Subject_SelectState extends State<Subject_Select> {
               ),
             child:TextButton(
               onPressed:(){
-                Navigator.pushNamed(context,Add_File.id);
+                Navigator.pushNamed(context,Select_Page.id);
               }, child: Text("Subject Select area"),
             ),
             ),

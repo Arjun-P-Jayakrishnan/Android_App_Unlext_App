@@ -112,6 +112,7 @@
 import "package:flutter/material.dart";
 import "login_page.dart";
 import "subject_select.dart";
+import "selection_subject_to_file_select.dart";
 import "add_file.dart";
 
 void main()=>runApp(Select_App());
@@ -126,6 +127,7 @@ class Select_App extends StatelessWidget{
       routes:{
         Login_Page.id:(context)=>Login_Page(),
         Subject_Select.id:(context)=>Subject_Select(),
+        Select_Page.id:(context)=>Select_Page(),
         Add_File.id:(context)=>Add_File(),
       },
       title:"Unlext App",
